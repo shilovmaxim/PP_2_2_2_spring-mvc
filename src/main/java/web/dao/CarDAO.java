@@ -1,9 +1,9 @@
-package web.DAO;
+package web.dao;
 
 import web.model.Car;
 
 import java.util.List;
 
 public interface CarDAO {
-    List<Car> getListCars(int count);
+    List<Car> getListCars(Integer count);
 }

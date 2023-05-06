@@ -11,6 +11,10 @@
         <h1 th:text="${msg}"></h1>
     </th:block>
 </div>
-<a href="/car_service/cars?count=5">Cars</a>
+<p><a href="/car_service/cars">Cars (request without parameters)</a></p>
+<p><a href="/car_service/cars?count=5">Cars count = 5 </a></p>
+<p><a href="/car_service/cars?count=3">Cars count = 3 </a></p>
+<p><a href="/car_service/cars?count=0">Cars count = 0 </a></p>
+<p><a href="/car_service/cars?count=5000">Cars count = 5000 </a></p>
 </body>
 </html>
