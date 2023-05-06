@@ -1,5 +1,10 @@
 package web.model;
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+@Scope("prototype")
 public class Car {
     private int id;
     private String model;
@@ -27,6 +32,9 @@ public class Car {
 
     public void setSeries(int series) {
         this.series = series;
+    }
+
+    public Car() {
     }
 
     public Car(int id, String model, int series) {
