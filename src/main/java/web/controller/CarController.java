@@ -12,8 +12,8 @@ import web.service.CarService;
 @RequestMapping("/car_service")
 public class CarController {
 
-    private final CarService carService;
 
+    private final CarService carService;
 
     @Autowired
     public CarController(CarService carService) {
